@@ -175,7 +175,7 @@ textarea {
 
 .f-nav {
   z-index: 9999;
-  position: fixed;
+  /*position: fixed; */
   left: 0;
   top: 0;
   width: 100%; }
