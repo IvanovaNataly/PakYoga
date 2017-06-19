@@ -1,0 +1,52 @@
+html {
+  background: url("cover.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  direction: ltr;
+  text-align: center;
+  line-height: normal;
+  /*background-color: aqua;*/ }
+
+*, ::before, ::after {
+  box-sizing: border-box; }
+
+.cover {
+  	/*color: rgb(242, 252, 255);
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: repeat;
+      background-size: cover;
+      background-image: url("full_VoAphgkT.jpg");*/
+  background-color: rgba(0, 0, 0, 0.11765);
+  padding-top: 30px;
+  padding-bottom: 80px; }
+
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+  outline: 1px black solid; }
+
+.content {
+  width: 100%;
+  outline: 1px red solid; }
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 323.33333px;
+  padding: 0;
+  margin: 0;
+  outline: 1px green solid; }
+  .column ul {
+    text-align: left; }
+
+/*# sourceMappingURL=styles.css.map */
