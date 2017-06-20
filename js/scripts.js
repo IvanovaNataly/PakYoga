@@ -21,7 +21,7 @@ function menuToggle() {
   hamburgerButton.addEventListener("click", menuToggle);
   
 //Close menu on click
-  $('.nav-link').on('click', menuToggle);
+  //$('.nav-link').on('click', menuToggle);
 
 //menu fixed on scrolling
 	var nav = $('.nav-container');
